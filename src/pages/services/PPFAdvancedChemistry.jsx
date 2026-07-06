@@ -1,8 +1,8 @@
 import React from 'react';
 import ServiceLayout from '../../components/ServiceLayout';
 
-const HERO_BG_IMAGE = "https://loremflickr.com/1920/1080/supercar?lock=17";
-const SPLIT_IMAGE_URL = "https://loremflickr.com/1920/1080/supercar,detail?lock=18";
+const HERO_BG_IMAGE = "/services/paint-protection-film/advanced-chemistry/hero-img.jpg";
+const SPLIT_IMAGE_URL = "/services/paint-protection-film/advanced-chemistry/split-img.jpg";
 
 export default function PPFAdvancedChemistry() {
   return (

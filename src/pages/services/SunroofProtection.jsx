@@ -1,8 +1,8 @@
 import React from 'react';
 import ServiceLayout from '../../components/ServiceLayout';
 
-const HERO_BG_IMAGE = "https://loremflickr.com/1920/1080/supercar?lock=31";
-const SPLIT_IMAGE_URL = "https://loremflickr.com/1920/1080/supercar,detail?lock=32";
+const HERO_BG_IMAGE = "/services/sunroof-protection/hero-img.avif";
+const SPLIT_IMAGE_URL = "/services/sunroof-protection/split-img.avif";
 
 export default function SunroofProtection() {
   return (

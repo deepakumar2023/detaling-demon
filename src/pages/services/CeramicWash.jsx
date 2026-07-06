@@ -1,8 +1,8 @@
 import React from 'react';
 import ServiceLayout from '../../components/ServiceLayout';
 
-const HERO_BG_IMAGE = "https://images.pexels.com/photos/14231678/pexels-photo-14231678.jpeg";
-const SPLIT_IMAGE_URL = "https://images.pexels.com/photos/6872146/pexels-photo-6872146.jpeg";
+const HERO_BG_IMAGE = "/services/ceramic-wash/hero-img.avif";
+const SPLIT_IMAGE_URL = "/services/ceramic-wash/split-img.jpg";
 
 export default function CeramicWash() {
   return (

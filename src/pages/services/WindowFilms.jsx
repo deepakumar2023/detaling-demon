@@ -1,8 +1,8 @@
 import React from 'react';
 import ServiceLayout from '../../components/ServiceLayout';
 
-const HERO_BG_IMAGE = "https://images.pexels.com/photos/3370332/pexels-photo-3370332.jpeg?_gl=1*153ad4t*_ga*MTA2NzQ3NDYzNy4xNzgzMzIyODY1*_ga_8JE65Q40S6*czE3ODMzMjI4NjQkbzEkZzEkdDE3ODMzMjM5OTkkajU5JGwwJGgw";
-const SPLIT_IMAGE_URL = "https://images.pexels.com/photos/36806222/pexels-photo-36806222.jpeg?_gl=1*9vkp6m*_ga*MTA2NzQ3NDYzNy4xNzgzMzIyODY1*_ga_8JE65Q40S6*czE3ODMzMjI4NjQkbzEkZzEkdDE3ODMzMjM5OTkkajU5JGwwJGgw";
+const HERO_BG_IMAGE = "/services/window-films/hero-img.jpg";
+const SPLIT_IMAGE_URL = "/services/window-films/split-img.jpg";
 
 export default function WindowFilms() {
   return (

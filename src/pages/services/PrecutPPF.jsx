@@ -1,8 +1,8 @@
 import React from 'react';
 import ServiceLayout from '../../components/ServiceLayout';
 
-const HERO_BG_IMAGE = "https://images.pexels.com/photos/35508367/pexels-photo-35508367.jpeg?_gl=1*wm0699*_ga*MTA2NzQ3NDYzNy4xNzgzMzIyODY1*_ga_8JE65Q40S6*czE3ODMzMjI4NjQkbzEkZzEkdDE3ODMzMjMwNzMkajUyJGwwJGgw";
-const SPLIT_IMAGE_URL = "https://images.pexels.com/photos/36021355/pexels-photo-36021355.jpeg?_gl=1*1ep4do2*_ga*MTA2NzQ3NDYzNy4xNzgzMzIyODY1*_ga_8JE65Q40S6*czE3ODMzMjI4NjQkbzEkZzEkdDE3ODMzMjMwNjUkajYwJGwwJGgw";
+const HERO_BG_IMAGE = "/services/precut-ppf/hero-img.jpg";
+const SPLIT_IMAGE_URL = "/services/precut-ppf/split-img.jpg";
 
 export default function PrecutPPF() {
   return (

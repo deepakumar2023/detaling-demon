@@ -1,8 +1,8 @@
 import React from 'react';
 import ServiceLayout from '../../components/ServiceLayout';
 
-const HERO_BG_IMAGE = "https://images.pexels.com/photos/11157434/pexels-photo-11157434.jpeg";
-const SPLIT_IMAGE_URL = "https://plus.unsplash.com/premium_photo-1682142358040-cc602ecb0366?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhciUyMERFTlRJTkclMjAlMjYlMjBQQUlOVElOR3xlbnwwfHwwfHx8MA%3D%3D";
+const HERO_BG_IMAGE = "/services/car-denting-painting/hero-img.avif";
+const SPLIT_IMAGE_URL = "/services/car-denting-painting/split-img.avif";
 
 export default function CarDentingPainting() {
   return (
