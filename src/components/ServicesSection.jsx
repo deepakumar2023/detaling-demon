@@ -7,7 +7,7 @@ const services = [
     title: 'CERAMIC COATING',
     description:
       'Military-grade surface protection that bonds at a molecular level. Experience extreme hydrophobicity and a permanent candy-like gloss that lasts for years.',
-    price: 'FROM $899',
+    price: '',
     delay: '100ms',
   },
   {
@@ -15,7 +15,7 @@ const services = [
     title: 'PAINT CORRECTION',
     description:
       'A multi-stage mechanical process to eliminate 95%+ of swirl marks, scratches, and oxidation. Restoring depth and clarity to your paint\'s original finish.',
-    price: 'FROM $599',
+    price: '',
     delay: '200ms',
   },
   {
@@ -23,7 +23,7 @@ const services = [
     title: 'INTERIOR DETAIL',
     description:
       'Deep steam cleaning, leather conditioning, and surgical-level sanitization. We restore your cabin to a sterile, factory-fresh environment using premium pH-balanced agents.',
-    price: 'FROM $249',
+    price: '',
     delay: '300ms',
   },
 ];

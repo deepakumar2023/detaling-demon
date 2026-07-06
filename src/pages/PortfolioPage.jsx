@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+
+import SEO from '../components/SEO';
 
 const PROJECTS = [
   {
@@ -106,7 +106,11 @@ export default function PortfolioPage() {
 
   return (
     <div className="font-[Geist] text-[16px] leading-[24px] selection:bg-[var(--color-primary-container)] selection:text-[var(--color-on-primary-container)] bg-[var(--color-background)] text-[var(--color-on-background)] antialiased min-h-screen">
-      <Navbar />
+      <SEO 
+        title="Our Portfolio | Detailing Demons" 
+        description="View our gallery of elite automotive detailing, ceramic coating, and paint protection film projects." 
+      />
+    
       
       {/* Hero Section */}
       <header className="relative h-screen w-full flex items-end overflow-hidden">
@@ -201,8 +205,6 @@ export default function PortfolioPage() {
           </Link>
         </div>
       </section>
-
-      <Footer />
-    </div>
+</div>
   );
 }

@@ -24,10 +24,13 @@ import MaintenanceWash from './pages/services/MaintenanceWash'
 import SprayOnPPF from './pages/services/SprayOnPPF'
 import CarDentingPainting from './pages/services/CarDentingPainting'
 import WindshieldProtection from './pages/services/WindshieldProtection'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <>
+      <Navbar/>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/services" element={<ServicesPage />} />
@@ -58,6 +61,8 @@ function App() {
       </Routes>
 
       <FloatingActions />
+
+      <Footer/>
     </>
   )
 }

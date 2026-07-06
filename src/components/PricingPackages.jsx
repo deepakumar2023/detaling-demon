@@ -13,8 +13,7 @@ export default function PricingPackages() {
         {/* Package 1 */}
         <div className="bg-[var(--color-surface-container)] p-8 border border-[var(--color-surface-container-highest)] hover:glow-red transition-all duration-500">
           <span className="font-[Space_Mono] text-[12px] leading-[16px] tracking-[0.1em] font-bold text-[var(--color-secondary)] uppercase block mb-4">Entry Tier</span>
-          <h3 className="font-[Anybody] text-[40px] leading-[48px] tracking-[-0.02em] font-bold text-[var(--color-on-surface)] mb-2 uppercase">CERAMIC PRO</h3>
-          <div className="text-4xl font-[Anybody] font-extrabold text-[var(--color-primary)] mb-8 tracking-[-0.04em]">$799<span className="text-sm font-[Space_Mono] tracking-[0.1em] text-[var(--color-secondary)] ml-2 uppercase">USD</span></div>
+          <h3 className="font-[Anybody] text-[40px] leading-[48px] tracking-[-0.02em] font-bold text-[var(--color-on-surface)] mb-8 uppercase">CERAMIC PRO</h3>
           <ul className="space-y-4 mb-10 text-[var(--color-on-surface-variant)] font-[Geist] text-[16px] leading-[24px] border-t border-[var(--color-surface-container-highest)] pt-6">
             <li className="flex items-center gap-2"><MdCheckCircle className="text-[var(--color-primary)] text-xl" /> 2-Year Protection</li>
             <li className="flex items-center gap-2"><MdCheckCircle className="text-[var(--color-primary)] text-xl" /> Single Stage Polish</li>
@@ -28,8 +27,7 @@ export default function PricingPackages() {
         <div className="bg-[var(--color-surface-container-high)] p-8 border-2 border-[var(--color-primary)] scale-105 shadow-[0_0_40px_rgba(230,0,0,0.2)] relative z-10">
           <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[var(--color-primary)] text-[var(--color-background)] px-4 py-1 font-[Space_Mono] text-[10px] uppercase font-bold tracking-widest">MOST AGGRESSIVE</div>
           <span className="font-[Space_Mono] text-[12px] leading-[16px] tracking-[0.1em] font-bold text-[var(--color-primary)] uppercase block mb-4">Professional Tier</span>
-          <h3 className="font-[Anybody] text-[40px] leading-[48px] tracking-[-0.02em] font-bold text-[var(--color-on-surface)] mb-2 uppercase">THE DEMON SHIELD</h3>
-          <div className="text-4xl font-[Anybody] font-extrabold text-[var(--color-primary)] mb-8 tracking-[-0.04em]">$1,499<span className="text-sm font-[Space_Mono] tracking-[0.1em] text-[var(--color-secondary)] ml-2 uppercase">USD</span></div>
+          <h3 className="font-[Anybody] text-[40px] leading-[48px] tracking-[-0.02em] font-bold text-[var(--color-on-surface)] mb-8 uppercase">THE DEMON SHIELD</h3>
           <ul className="space-y-4 mb-10 text-[var(--color-on-surface)] font-[Geist] text-[16px] leading-[24px] border-t border-[var(--color-primary)]/20 pt-6">
             <li className="flex items-center gap-2"><MdCheckCircle className="text-[var(--color-primary)] text-xl" /> 5-Year Protection</li>
             <li className="flex items-center gap-2"><MdCheckCircle className="text-[var(--color-primary)] text-xl" /> Dual Stage Paint Correction</li>
@@ -42,8 +40,7 @@ export default function PricingPackages() {
         {/* Package 3 */}
         <div className="bg-[var(--color-surface-container)] p-8 border border-[var(--color-surface-container-highest)] hover:glow-red transition-all duration-500">
           <span className="font-[Space_Mono] text-[12px] leading-[16px] tracking-[0.1em] font-bold text-[var(--color-secondary)] uppercase block mb-4">Ultimate Tier</span>
-          <h3 className="font-[Anybody] text-[40px] leading-[48px] tracking-[-0.02em] font-bold text-[var(--color-on-surface)] mb-2 uppercase">TRACK READY</h3>
-          <div className="text-4xl font-[Anybody] font-extrabold text-[var(--color-primary)] mb-8 tracking-[-0.04em]">$2,899<span className="text-sm font-[Space_Mono] tracking-[0.1em] text-[var(--color-secondary)] ml-2 uppercase">USD</span></div>
+          <h3 className="font-[Anybody] text-[40px] leading-[48px] tracking-[-0.02em] font-bold text-[var(--color-on-surface)] mb-8 uppercase">TRACK READY</h3>
           <ul className="space-y-4 mb-10 text-[var(--color-on-surface-variant)] font-[Geist] text-[16px] leading-[24px] border-t border-[var(--color-surface-container-highest)] pt-6">
             <li className="flex items-center gap-2"><MdCheckCircle className="text-[var(--color-primary)] text-xl" /> Lifetime Protection</li>
             <li className="flex items-center gap-2"><MdCheckCircle className="text-[var(--color-primary)] text-xl" /> Full Paint Correction</li>

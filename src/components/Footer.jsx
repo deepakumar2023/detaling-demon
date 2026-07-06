@@ -12,9 +12,9 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { label: 'INSTAGRAM', icon: FaInstagram, href: '#' },
-  { label: 'FACEBOOK', icon: FaFacebook, href: '#' },
-  { label: 'YOUTUBE', icon: FaYoutube, href: '#' },
+  {  icon: FaInstagram, href: '#' },
+  { icon: FaFacebook, href: '#' },
+  { icon: FaYoutube, href: '#' },
 ];
 
 const serviceLinks = [
@@ -59,7 +59,7 @@ export default function Footer() {
                   className="flex items-center gap-2 text-[var(--color-on-surface)] hover:text-[var(--color-primary)] transition-all group"
                   aria-label={link.label}
                 >
-                  <Icon size={20} className="group-hover:scale-110 transition-transform" />
+                  <Icon size={22} className="group-hover:scale-110 transition-transform" />
                   <span className="font-[Space_Mono] text-[12px] tracking-[0.1em] font-bold">{link.label}</span>
                 </a>
               );
@@ -119,7 +119,7 @@ export default function Footer() {
                 First Floor Office 16 Tower 2, Graphix, Block A,<br />
                 Sector 62, Noida, Uttar Pradesh 201309
               </p>
-              <p className="mt-1">+91 7291004000 / 7291004001 / 7291004005</p>
+              <p className="mt-1">+91 7291004000 / 7291004005</p>
             </div>
 
             {/* Secondary Location */}

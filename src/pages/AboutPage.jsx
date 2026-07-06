@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+
+import SEO from '../components/SEO';
 
 export default function AboutPage() {
   useEffect(() => {
@@ -21,8 +21,12 @@ export default function AboutPage() {
 
   return (
     <div className="font-[Geist] text-[16px] leading-[24px] selection:bg-[var(--color-primary-container)] selection:text-[var(--color-on-primary-container)] carbon-bg">
-      <Navbar />
-      <main className="pt-20">
+      <SEO 
+        title="About Us | Detailing Demons" 
+        description="Learn about Detailing Demons' legacy of automotive perfection, engineered precision, and military-grade surface protection." 
+      />
+     
+      <main className="pt-0">
         {/* Hero Section: The Cult */}
         <section className="relative h-screen flex items-center overflow-hidden border-b border-primary/20">
           <div className="absolute inset-0 z-0">
@@ -229,7 +233,6 @@ export default function AboutPage() {
           </div>
         </section>
       </main>
-      <Footer />
-    </div>
+</div>
   );
 }

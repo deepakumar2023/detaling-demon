@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+
 import { FaWhatsapp } from 'react-icons/fa';
+import SEO from '../components/SEO';
+
 export default function ContactPage() {
   const [activeStep, setActiveStep] = useState(1);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -22,9 +23,13 @@ export default function ContactPage() {
 
   return (
     <div className="font-[Geist] text-[16px] leading-[24px] selection:bg-[var(--color-primary-container)] selection:text-[var(--color-on-primary-container)] carbon-bg text-[var(--color-on-surface)]">
-      <Navbar />
+      <SEO 
+        title="Contact Us | Detailing Demons" 
+        description="Get in touch with Detailing Demons to schedule your premium automotive detailing or ceramic coating appointment." 
+      />
+  
       
-      <main className="pt-32 pb-section-gap max-w-[1440px] mx-auto px-5 md:px-margin-desktop min-h-screen">
+      <main className="pt-48 pb-section-gap max-w-[1440px] mx-auto px-5 md:px-margin-desktop min-h-screen">
         <header className="mb-16">
           <div className="flex items-center gap-4 mb-2">
             <div className="h-px w-12 bg-[var(--color-primary-container)]"></div>
@@ -53,7 +58,7 @@ export default function ContactPage() {
                   </p>
                   <div className="space-y-1 pt-2">
                     <h4 className="font-label-caps text-[var(--color-on-surface-variant)] text-[10px] uppercase">Direct Frequency</h4>
-                    <p className="font-body-lg text-body-lg font-bold">+91 7291004000 / 7291004001 / 7291004005</p>
+                    <p className="font-body-lg text-body-lg font-bold">+91 7291004000 / 7291004005</p>
                   </div>
                 </div>
 
@@ -278,8 +283,6 @@ export default function ContactPage() {
           </section>
         </div>
       </main>
-      
-      <Footer />
-    </div>
+</div>
   );
 }
