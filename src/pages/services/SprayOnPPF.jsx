@@ -1,14 +1,45 @@
-import SEO from '../../components/SEO';
+import React from 'react';
+import ServiceLayout from '../../components/ServiceLayout';
+
+const HERO_BG_IMAGE = "https://images.pexels.com/photos/14615263/pexels-photo-14615263.jpeg";
+const SPLIT_IMAGE_URL = "https://images.pexels.com/photos/6870314/pexels-photo-6870314.jpeg";
+
 export default function SprayOnPPF() {
   return (
-    <div className="min-h-screen pt-48 px-5 md:px-20 bg-[var(--color-background)]">
-      <SEO title="Spray-On PPF / Peelable Paint | Detailing Demons" description="Learn more about our Spray-On PPF / Peelable Paint services." />
-      <h1 className="text-4xl font-bold font-[Space_Mono] text-[var(--color-primary-container)] mb-8">
-        Spray-On PPF / Peelable Paint
-      </h1>
-      <p className="text-[var(--color-on-surface-variant)] font-[Geist] text-lg">
-        Detailed information about Spray-On PPF / Peelable Paint will go here.
-      </p>
-    </div>
+    <ServiceLayout
+      title="PHANTOM SPRAY-ON PPF"
+      subtitle="SEAMLESS PEELABLE PAINT"
+      seoDescription="Spray-On PPF offers a truly seamless, peelable protective layer that conforms to any complex shape without stretch marks or edges."
+      heroBgImage={HERO_BG_IMAGE}
+      heroDescription="Spray-On Paint Protection Film (also known as Peelable Paint) is a revolutionary product applied with a spray gun, providing a thick, completely seamless protective layer over the entire vehicle."
+      splitImageUrl={SPLIT_IMAGE_URL}
+      splitTitle="SEAMLESS PROTECTION"
+      splitSubtitle="The Future of PPF"
+      splitDescription="Unlike traditional sheet PPF, Spray-On PPF has no edges to lift, no stretch marks, and no relief cuts. It conforms perfectly to the most complex aerodynamic shapes, vents, and grilles, offering undetectable, edge-to-edge protection."
+      features={[
+        '100% SEAMLESS FINISH',
+        'NO VISIBLE EDGES',
+        'CAN BE WET-SANDED & POLISHED',
+        'EASILY PEELABLE REMOVAL'
+      ]}
+      benefitsTitle="WHY SPRAY-ON PPF?"
+      benefits={[
+        {
+          icon: 'awesome',
+          title: 'True Seamless Finish',
+          description: 'No edges means dirt cannot collect at the seams, making the protection completely invisible to the naked eye.'
+        },
+        {
+          icon: 'shield',
+          title: 'Customizable Thickness',
+          description: 'Can be sprayed thicker in high-impact areas like the front bumper for maximum rock chip resistance.'
+        },
+        {
+          icon: 'speed',
+          title: 'Polishable Surface',
+          description: 'Just like real clear coat, Spray-On PPF can be wet-sanded, compounded, and polished to a mirror finish.'
+        }
+      ]}
+    />
   );
 }

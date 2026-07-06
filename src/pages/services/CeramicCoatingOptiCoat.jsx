@@ -1,14 +1,45 @@
-import SEO from '../../components/SEO';
+import React from 'react';
+import ServiceLayout from '../../components/ServiceLayout';
+
+const HERO_BG_IMAGE = "https://loremflickr.com/1920/1080/supercar?lock=9";
+const SPLIT_IMAGE_URL = "https://loremflickr.com/1920/1080/supercar,detail?lock=10";
+
 export default function CeramicCoatingOptiCoat() {
   return (
-    <div className="min-h-screen pt-48 px-5 md:px-20 bg-[var(--color-background)]">
-      <SEO title="Ceramic Coating - Opti-Coat | Detailing Demons" description="Learn more about our Ceramic Coating - Opti-Coat services." />
-      <h1 className="text-4xl font-bold font-[Space_Mono] text-[var(--color-primary-container)] mb-8">
-        Ceramic Coating - Opti-Coat
-      </h1>
-      <p className="text-[var(--color-on-surface-variant)] font-[Geist] text-lg">
-        Detailed information about Ceramic Coating - Opti-Coat will go here.
-      </p>
-    </div>
+    <ServiceLayout
+      title="PHANTOM OPTI-COAT PRO"
+      subtitle="THE ULTIMATE PERMANENT COATING"
+      seoDescription="Opti-Coat Pro delivers permanent paint protection with a Silicon Carbide formula. Experience superior scratch resistance and chemical defense."
+      heroBgImage={HERO_BG_IMAGE}
+      heroDescription="Unlike traditional ceramic coatings, Opti-Coat Pro is a permanent, Silicon Carbide (SiC) based coating. It becomes a permanent part of your vehicle's clear coat, offering unmatched durability."
+      splitImageUrl={SPLIT_IMAGE_URL}
+      splitTitle="SILICON CARBIDE STRENGTH"
+      splitSubtitle="Permanent Protection"
+      splitDescription="Opti-Coat Pro is not a wax or sealant that will wash away or break down over time. It is a clear resin coating that provides permanent protection for all factory paints, increasing the clear coat's hardness and resistance to damage."
+      features={[
+        'PERMANENT BOND',
+        'SILICON CARBIDE (SiC) FORMULA',
+        'SUPERIOR SCRATCH RESISTANCE',
+        'FACTORY WARRANTY INCLUDED'
+      ]}
+      benefitsTitle="THE OPTI-COAT DIFFERENCE"
+      benefits={[
+        {
+          icon: 'shield',
+          title: 'Permanent Durability',
+          description: 'Unlike quartz-based coatings that degrade over time, Opti-Coat Pro forms a permanent bond that never needs to be re-applied.'
+        },
+        {
+          icon: 'speed',
+          title: 'Chemical Resistance',
+          description: 'Impervious to harsh chemicals, preventing damage from bird droppings, bug splatter, and acid rain.'
+        },
+        {
+          icon: 'awesome',
+          title: 'Enhanced Thickness',
+          description: 'Adds a measurable, thick layer of clear coat to the vehicle, significantly increasing scratch and marring resistance.'
+        }
+      ]}
+    />
   );
 }

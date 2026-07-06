@@ -1,14 +1,45 @@
-import SEO from '../../components/SEO';
+import React from 'react';
+import ServiceLayout from '../../components/ServiceLayout';
+
+const HERO_BG_IMAGE = "https://loremflickr.com/1920/1080/supercar?lock=23";
+const SPLIT_IMAGE_URL = "https://loremflickr.com/1920/1080/supercar,detail?lock=24";
+
 export default function PPFProtectionCoating() {
   return (
-    <div className="min-h-screen pt-48 px-5 md:px-20 bg-[var(--color-background)]">
-      <SEO title="PPF Protection Coating | Detailing Demons" description="Learn more about our PPF Protection Coating services." />
-      <h1 className="text-4xl font-bold font-[Space_Mono] text-[var(--color-primary-container)] mb-8">
-        PPF Protection Coating
-      </h1>
-      <p className="text-[var(--color-on-surface-variant)] font-[Geist] text-lg">
-        Detailed information about PPF Protection Coating will go here.
-      </p>
-    </div>
+    <ServiceLayout
+      title="PHANTOM PPF PROTECTION COATING"
+      subtitle="ENHANCE YOUR SHIELD"
+      seoDescription="Maximize the lifespan and performance of your Paint Protection Film with a specialized PPF Ceramic Coating."
+      heroBgImage={HERO_BG_IMAGE}
+      heroDescription="Already have PPF installed? Take its performance to the next level with a specialized PPF Ceramic Coating. This top-layer treatment enhances gloss, adds hydrophobics, and extends the life of your film."
+      splitImageUrl={SPLIT_IMAGE_URL}
+      splitTitle="DOUBLE THE DEFENSE"
+      splitSubtitle="Synergistic Protection"
+      splitDescription="While PPF offers incredible physical protection against rock chips, a PPF-specific ceramic coating provides the ultimate chemical resistance and ease of cleaning, creating a synergistic double-layer defense system."
+      features={[
+        'DESIGNED SPECIFICALLY FOR PPF',
+        'INCREASES FILM LIFESPAN',
+        'EXTREME WATER BEADING',
+        'PREVENTS DIRT BUILDUP'
+      ]}
+      benefitsTitle="WHY COAT YOUR PPF?"
+      benefits={[
+        {
+          icon: 'shield',
+          title: 'Extended Lifespan',
+          description: 'Protects the porous surface of the polyurethane film from absorbing dirt and UV rays, preventing early degradation.'
+        },
+        {
+          icon: 'awesome',
+          title: 'Self-Cleaning Effect',
+          description: 'Adds an incredibly slick, hydrophobic layer that causes water to bead up and roll off, carrying dirt away.'
+        },
+        {
+          icon: 'speed',
+          title: 'Enhanced Gloss',
+          description: 'Deepens the visual impact of the film, making it look glossier and more like bare, polished clear coat.'
+        }
+      ]}
+    />
   );
 }

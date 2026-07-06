@@ -1,14 +1,45 @@
-import SEO from '../../components/SEO';
+import React from 'react';
+import ServiceLayout from '../../components/ServiceLayout';
+
+const HERO_BG_IMAGE = "https://loremflickr.com/1920/1080/supercar?lock=7";
+const SPLIT_IMAGE_URL = "https://loremflickr.com/1920/1080/supercar,detail?lock=8";
+
 export default function CeramicCoatingLabocosmetica() {
   return (
-    <div className="min-h-screen pt-48 px-5 md:px-20 bg-[var(--color-background)]">
-      <SEO title="Ceramic Coating - Labocosmetica | Detailing Demons" description="Learn more about our Ceramic Coating - Labocosmetica services." />
-      <h1 className="text-4xl font-bold font-[Space_Mono] text-[var(--color-primary-container)] mb-8">
-        Ceramic Coating - Labocosmetica
-      </h1>
-      <p className="text-[var(--color-on-surface-variant)] font-[Geist] text-lg">
-        Detailed information about Ceramic Coating - Labocosmetica will go here.
-      </p>
-    </div>
+    <ServiceLayout
+      title="PHANTOM LABOCOSMETICA COATING"
+      subtitle="ITALIAN EXCELLENCE IN CAR CARE"
+      seoDescription="Experience the pinnacle of Italian detailing chemistry with Labocosmetica Ceramic Coatings. Superior gloss, extreme hydrophobics, and unmatched durability."
+      heroBgImage={HERO_BG_IMAGE}
+      heroDescription="Labocosmetica represents the height of Italian chemical engineering. Born from Mafra's legacy, these state-of-the-art coatings provide an unrivaled balance of gloss, slickness, and robust protection."
+      splitImageUrl={SPLIT_IMAGE_URL}
+      splitTitle="THE ITALIAN MASTERPIECE"
+      splitSubtitle="Precision Engineering"
+      splitDescription="Formulated in Milan, Labocosmetica coatings are designed to withstand the harshest environmental conditions while delivering a breathtaking, glass-like finish. It's not just a coating; it's a testament to automotive passion."
+      features={[
+        'MULTI-LAYER TECHNOLOGY',
+        'EXTREME SLICKNESS',
+        'CHEMICAL RESISTANCE (PH 2-13)',
+        'INTENSE COLOR DEPTH'
+      ]}
+      benefitsTitle="WHY LABOCOSMETICA?"
+      benefits={[
+        {
+          icon: 'awesome',
+          title: '3D Gloss Effect',
+          description: 'Enhances the paint color, creating a stunning three-dimensional depth that makes the car look perpetually wet.'
+        },
+        {
+          icon: 'shield',
+          title: 'Self-Healing Properties',
+          description: 'Advanced polymer structure that can self-heal minor swirls and micro-marring under direct heat.'
+        },
+        {
+          icon: 'speed',
+          title: 'Anti-Static Surface',
+          description: 'Repels dust and atmospheric fallout, keeping your vehicle cleaner for much longer periods between washes.'
+        }
+      ]}
+    />
   );
 }
