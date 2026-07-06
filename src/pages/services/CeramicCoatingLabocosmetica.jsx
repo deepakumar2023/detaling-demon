@@ -1,8 +1,8 @@
 import React from 'react';
 import ServiceLayout from '../../components/ServiceLayout';
 
-const HERO_BG_IMAGE = "https://loremflickr.com/1920/1080/supercar?lock=7";
-const SPLIT_IMAGE_URL = "https://loremflickr.com/1920/1080/supercar,detail?lock=8";
+const HERO_BG_IMAGE = "/services/ceramic-coating/labocosmetica/hero-img.jpg";
+const SPLIT_IMAGE_URL = "/services/ceramic-coating/labocosmetica/split-img.avif";
 
 export default function CeramicCoatingLabocosmetica() {
   return (

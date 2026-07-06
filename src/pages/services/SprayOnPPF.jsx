@@ -1,8 +1,8 @@
 import React from 'react';
 import ServiceLayout from '../../components/ServiceLayout';
 
-const HERO_BG_IMAGE = "https://images.pexels.com/photos/14615263/pexels-photo-14615263.jpeg";
-const SPLIT_IMAGE_URL = "https://images.pexels.com/photos/6870314/pexels-photo-6870314.jpeg";
+const HERO_BG_IMAGE = "/services/spray-on-ppf/hero-img.jpg";
+const SPLIT_IMAGE_URL = "/services/spray-on-ppf/split-img.jpg";
 
 export default function SprayOnPPF() {
   return (

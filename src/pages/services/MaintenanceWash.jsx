@@ -1,8 +1,8 @@
 import React from 'react';
 import ServiceLayout from '../../components/ServiceLayout';
 
-const HERO_BG_IMAGE = "https://images.pexels.com/photos/474/black-and-white-car-vehicle-vintage.jpg";
-const SPLIT_IMAGE_URL = "https://images.pexels.com/photos/8478221/pexels-photo-8478221.jpeg";
+const HERO_BG_IMAGE = "/services/maintenance-wash/hero-img.jpg";
+const SPLIT_IMAGE_URL = "/services/maintenance-wash/split-img.jpg";
 
 export default function MaintenanceWash() {
   return (

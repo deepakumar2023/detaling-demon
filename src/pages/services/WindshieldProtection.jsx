@@ -1,8 +1,8 @@
 import React from 'react';
 import ServiceLayout from '../../components/ServiceLayout';
 
-const HERO_BG_IMAGE = "https://loremflickr.com/1920/1080/supercar?lock=35";
-const SPLIT_IMAGE_URL = "https://tse3.mm.bing.net/th/id/OIP.UXC7KPVz_SIVkTwkJL1ocQHaHa?pid=Api&P=0&h=180";
+const HERO_BG_IMAGE = "/services/windshield-protection/hero-img.avif";
+const SPLIT_IMAGE_URL = "/services/windshield-protection/split-img.jpg";
 
 export default function WindshieldProtection() {
   return (

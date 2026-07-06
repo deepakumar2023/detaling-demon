@@ -1,8 +1,8 @@
 import React from 'react';
 import ServiceLayout from '../../components/ServiceLayout';
 
-const HERO_BG_IMAGE = "https://images.pexels.com/photos/4513014/pexels-photo-4513014.jpeg";
-const SPLIT_IMAGE_URL = "/bike-deatiling-image.png";
+const HERO_BG_IMAGE = "/services/bike-detailing/hero-img.avif";
+const SPLIT_IMAGE_URL = "/services/bike-detailing/bike-deatiling-image.png";
 
 export default function BikeDetailing() {
   return (

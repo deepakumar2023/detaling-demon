@@ -1,8 +1,8 @@
 import React from 'react';
 import ServiceLayout from '../../components/ServiceLayout';
 
-const HERO_BG_IMAGE = "https://images.unsplash.com/photo-1605164598708-25701594473e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyJTIwc3RlYW0lMjB3YXNoaW5nfGVufDB8fDB8fHww";
-const SPLIT_IMAGE_URL = "https://images.pexels.com/photos/3354648/pexels-photo-3354648.jpeg";
+const HERO_BG_IMAGE = "/services/steam-wash/hero-img.jpg";
+const SPLIT_IMAGE_URL = "/services/steam-wash/split-img.jpg";
 
 export default function SteamWash() {
   return (

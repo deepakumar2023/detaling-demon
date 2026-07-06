@@ -1,8 +1,8 @@
 import React from 'react';
 import ServiceLayout from '../../components/ServiceLayout';
 
-const HERO_BG_IMAGE = "https://loremflickr.com/1920/1080/supercar?lock=19";
-const SPLIT_IMAGE_URL = "https://loremflickr.com/1920/1080/supercar,detail?lock=20";
+const HERO_BG_IMAGE = "/services/paint-protection-film/color-texture/hero-img.jpg";
+const SPLIT_IMAGE_URL = "/services/paint-protection-film/color-texture/split-img.jpg";
 
 export default function PPFColorTexture() {
   return (
