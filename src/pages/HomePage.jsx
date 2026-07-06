@@ -3,7 +3,6 @@ import HeroSection from '../components/HeroSection';
 import ServicesSection from '../components/ServicesSection';
 import ProcessSection from '../components/ProcessSection';
 import SplitSection from '../components/SplitSection';
-import StickyCTA from '../components/StickyCTA';
 import Footer from '../components/Footer';
 
 export default function HomePage() {
@@ -14,7 +13,6 @@ export default function HomePage() {
       <ServicesSection />
       <ProcessSection />
       <SplitSection />
-      <StickyCTA />
       <Footer />
     </div>
   );

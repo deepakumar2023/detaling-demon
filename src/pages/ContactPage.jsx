@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-
+import { FaWhatsapp } from 'react-icons/fa';
 export default function ContactPage() {
   const [activeStep, setActiveStep] = useState(1);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -41,34 +41,53 @@ export default function ContactPage() {
             <div className="relative p-2 border border-[var(--color-outline-variant)]/30 bg-[var(--color-surface-container-low)] overflow-hidden">
               <div className="scanline"></div>
               <div className="p-8 space-y-8 relative z-10">
+                {/* Primary Location */}
                 <div className="space-y-4">
                   <h3 className="font-label-caps text-[var(--color-on-surface-variant)] flex items-center gap-2">
                     <span className="material-symbols-outlined text-[var(--color-primary-container)]" style={{ fontVariationSettings: "'FILL' 1" }}>location_on</span>
-                    Headquarters
+                    India HQ
                   </h3>
-                  <p className="font-headline-md text-headline-md leading-tight text-[var(--color-on-surface)]">666 Obsidian Way,<br/>Adrenaline Bay, FL 33101</p>
+                  <p className="font-headline-md text-body-lg leading-tight text-[var(--color-on-surface)]">
+                    First Floor Office 16 Tower 2, Graphix, Block A,<br/>
+                    Sector 62, Noida, Uttar Pradesh 201309
+                  </p>
+                  <div className="space-y-1 pt-2">
+                    <h4 className="font-label-caps text-[var(--color-on-surface-variant)] text-[10px] uppercase">Direct Frequency</h4>
+                    <p className="font-body-lg text-body-lg font-bold">+91 7291004000 / 7291004001 / 7291004005</p>
+                  </div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-[var(--color-on-surface)]">
-                  <div className="space-y-2">
-                    <h4 className="font-label-caps text-[var(--color-on-surface-variant)] text-xs uppercase">Direct Frequency</h4>
-                    <p className="font-body-lg text-body-lg font-bold">1-800-DET-DEMN</p>
-                  </div>
-                  <div className="space-y-2">
-                    <h4 className="font-label-caps text-[var(--color-on-surface-variant)] text-xs uppercase">Secure Intel</h4>
-                    <p className="font-body-lg text-body-lg font-bold">ops@detailingdemons.com</p>
-                  </div>
+
+                <div className="h-px w-full bg-[var(--color-outline-variant)]/30"></div>
+
+                {/* Secondary Location */}
+                <div className="space-y-4">
+                  <h3 className="font-label-caps text-[var(--color-on-surface-variant)] flex items-center gap-2">
+                    <span className="material-symbols-outlined text-[var(--color-primary-container)]" style={{ fontVariationSettings: "'FILL' 1" }}>location_on</span>
+                    Dubai
+                  </h3>
+                  <p className="font-headline-md text-body-lg leading-tight text-[var(--color-on-surface)]">
+                    21/2 12th St - Al Qouz Ind.second<br/>
+                    Al Quoz - Dubai - United Arab Emirates
+                  </p>
+                </div>
+
+                <div className="h-px w-full bg-[var(--color-outline-variant)]/30"></div>
+
+                <div className="space-y-2 text-[var(--color-on-surface)]">
+                  <h4 className="font-label-caps text-[var(--color-on-surface-variant)] text-[10px] uppercase">Secure Intel</h4>
+                  <p className="font-body-lg text-[14px] font-bold">INFO@DETAILINGDEMONS.COM</p>
                 </div>
               </div>
             </div>
 
-            {/* Emergency Line */}
-            <a className="group block relative p-1 bg-[var(--color-primary-container)] transition-all hover:glow-red" href="tel:18005559999">
+            {/* WhatsApp Inquiry */}
+            <a className="group block relative p-1 bg-[var(--color-primary-container)] transition-all hover:glow-red" href="https://wa.me/917291004000" target="_blank" rel="noopener noreferrer">
               <div className="bg-black p-8 flex items-center justify-between transition-colors group-hover:bg-[var(--color-primary-container)]/10">
                 <div>
-                  <span className="font-label-caps text-[var(--color-primary-container)] group-hover:text-white transition-colors">Immediate Extraction</span>
-                  <h2 className="font-headline-md text-headline-md text-white uppercase italic">Emergency Detailing Line</h2>
+                  <span className="font-label-caps text-[var(--color-primary-container)] group-hover:text-white transition-colors">Instant Support</span>
+                  <h2 className="font-headline-md text-headline-md text-white uppercase italic">WhatsApp Inquiry</h2>
                 </div>
-                <span className="material-symbols-outlined text-[var(--color-primary-container)] text-5xl group-hover:text-white transition-colors" style={{ fontVariationSettings: "'FILL' 1" }}>emergency_home</span>
+                <FaWhatsapp className="text-[var(--color-primary-container)] text-5xl group-hover:text-white transition-colors" />
               </div>
             </a>
 
