@@ -7,7 +7,7 @@ import { FaInstagram, FaFacebook, FaYoutube, FaGhost } from 'react-icons/fa';
 const navLinks = [
   { label: 'SERVICES', href: '/services' },
   { label: 'PORTFOLIO', href: '/portfolio' },
-  { label: 'PACKAGES', href: '/#packages' },
+  // { label: 'PACKAGES', href: '/#packages' },
   { label: 'ABOUT', href: '/about' },
 ];
 
@@ -143,12 +143,12 @@ export default function Footer() {
             © 2024 DETAILING DEMONS. ENGINEERED FOR PRECISION.
           </p>
           <div className="flex gap-8 text-xs font-[Space_Mono] text-[var(--color-on-surface-variant)]">
-            <a href="#" className="hover:text-[var(--color-primary)] transition-all">
+            <Link to="/terms" className="hover:text-[var(--color-primary)] transition-all">
               TERMS
-            </a>
-            <a href="#" className="hover:text-[var(--color-primary)] transition-all">
+            </Link>
+            <Link to="/privacy" className="hover:text-[var(--color-primary)] transition-all">
               PRIVACY
-            </a>
+            </Link>
           </div>
         </div>
       </div>

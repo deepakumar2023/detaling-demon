@@ -35,7 +35,7 @@ export default function AboutPage() {
             <img 
               className="hero-parallax w-full h-full object-cover grayscale brightness-75 contrast-125" 
               alt="A gritty, high-contrast, cinematic group portrait of a professional car detailing team" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWNanbx5ysuhWjFK_7hYRRkveyF5apHGXOJRIFWPM5EtRsYc00QprUC-v7eraFK2s8rnmtZ20XYZL2nGKoW4H-XqUiKyKhh2lYvYSc7DKneYN9cIskIVPYRBt-0viCajkEPhNbNzX1DVgQmPvs4j2cabt39IMi-9klpjS9i8rnEzElfWX8KI-YcYi1QYwOy113AYQJZ1MH1MUgm2gZmY4cme7ZYyuP14Vb4z7HgyCN6MygVV364yqkxxSW-t-pULQin9_mQhZ4uA"
+              src="/aboutimg.png"
             />
           </div>
           <div className="relative z-20 px-margin-desktop max-w-[1440px] mx-auto w-full">
@@ -82,7 +82,7 @@ export default function AboutPage() {
                 <img 
                   className="w-full h-full object-cover" 
                   alt="A macro close-up of a high-end dual-action polisher head making contact with the glossy black hood" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJ-I4QynRLJ-OeKQ6_Y4wxyvRzYlEWckOVqXoqsGr1guOsAcr9W5TNF8UG98LLOBPlIoPrJpIyFryZFpOWwqFhFURG5OWHU5Q8KGJW9cawi-Ra45W4mNIDQ4NGhWUTON1C6mqigibCEP3PrM0jEZro4abTwxuupvFpKpyjqvEq7P1JzZrv-iEUVbX7Vu_9BrR8fDiViRDw-dwyPi0mz2yaTw-yshRqNu_DrR5e1sCJZx4zaSOQC92Y_DCQHo9Y2rV5YI9ACak60A"
+                  src="/aboutimg1.png"
                 />
                 <div className="absolute bottom-0 left-0 bg-primary px-4 py-2 font-label-caps text-label-caps text-on-primary-fixed uppercase font-bold">In-Action Precision</div>
               </div>
@@ -157,7 +157,7 @@ export default function AboutPage() {
                 <img 
                   className="w-full h-full object-cover grayscale brightness-110 group-hover:grayscale-0 transition-all duration-700 skew-fix scale-110 group-hover:scale-100" 
                   alt="A portrait of a lead car detailing master" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQNBnCmlvPk-kQeCeARu0Xsx2rS-bY9gvUc-crq9NaJh7ie0vgQi4HrS57dl1QSdQKBVqtG6ebZOYScl84ixpogcvzdO7JNu4aTHtG-vOfuQPVR1b8klwN7r2xmeFOuNvM7kPxEXbsSXzmTWy1USzVpXVuJ7mBqDIpx2Dl2AIi8pUtdyMvsjqz6jBVqxgFkmHfsz9sTTtfga649FsNsuo94zwE8t8Bdc5k9zDtMTWWgAveszPxjV8X1en_0-aFoM7ig6aCAyrILA"
+                  src="/aboutimg2.png"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
                 <div className="absolute bottom-4 left-4 skew-fix">
@@ -172,7 +172,7 @@ export default function AboutPage() {
                 <img 
                   className="w-full h-full object-cover grayscale brightness-110 group-hover:grayscale-0 transition-all duration-700 skew-fix scale-110 group-hover:scale-100" 
                   alt="A professional detailer focused on their work" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBINUkS-rIsKIvCaVug8cdHxY9lWwo9d1OBsBQ7FQkQY_UavnZDyTLwmA4H9vUiPpGTzOrALW2-wkffFqU-9U8oC5TYlASMa99msMI_huLxyEfoGpEyF_71Vim6c7MHoakOxtHFXqq0Gj1JrOJ_Ob06jJgZ1d_4UFHeAuTaQ7c50ZiuaL42z1A3EceHdTpb4ewh8TRxcUEM--4u3-rCN5dLBxAqEb-hY7uKhO2CclG0GWYcai7WtKkTehUgqxdyGzBxaxH68B8O3g"
+                  src="/aboutimg3.png"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
                 <div className="absolute bottom-4 left-4 skew-fix">
@@ -187,7 +187,7 @@ export default function AboutPage() {
                 <img 
                   className="w-full h-full object-cover grayscale brightness-110 group-hover:grayscale-0 transition-all duration-700 skew-fix scale-110 group-hover:scale-100" 
                   alt="A portrait of a technician standing with arms crossed" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqjmYrzACjou8FZKs3GtYz_uS-18EWlJ5EKwKIZ8Ue57aY7QV1ZEJNIO3K3bq5kSuTu7tXlxghSp13OdGCP-zk0t4Mk_3zHHrRpWHPhRrc_56ph1Rseg1FcjcgupPS7WyUsh4HqH6PtE-hWswzPqLsyHc-vtZC3oM8UGihN-XCV91zDK02V0XH5V3HVpv86cIkmvPZjOm-wMn0qj56uQdIiAucVg03cYOMlvvjntJn46D4vo3fdR8u3ruRAB8MtdU5ZfgrN-h78g"
+                  src="/aboutimg4.png"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
                 <div className="absolute bottom-4 left-4 skew-fix">
@@ -202,7 +202,7 @@ export default function AboutPage() {
                 <img 
                   className="w-full h-full object-cover grayscale brightness-110 group-hover:grayscale-0 transition-all duration-700 skew-fix scale-110 group-hover:scale-100" 
                   alt="A close-up dramatic portrait of a detailing master" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzI-4WfQ7ehexG5Af2l6U_34Jm2u-t6cHGS6a2d6qVJWK9BsaFwY841-QxL-Hvmi08rbZLyqkFtynEAmssLW9s-Xlfi1kOwN5pffHwInzuhueTDsmnimYyK4XYVVND0gIxC8tKIwwbFvuNg08IXvCzO6FJ8ba7XHEuRqjrL2uSNcmeq7VSInu1VOmbvll9VvOrwMcxse94QhugZgijY8MHnqKUvaKYkAaV0W1ymGRQ9h2jTWDqXVMdmlBYHr5Uj3Z_cdGershGvQ"
+                  src="/aboutimg5.png"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
                 <div className="absolute bottom-4 left-4 skew-fix">

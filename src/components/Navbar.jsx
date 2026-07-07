@@ -39,7 +39,7 @@ const NAV_LINKS = [
     ]
   },
   { label: 'PORTFOLIO', href: '/portfolio', isRoute: true },
-  { label: 'PACKAGES', href: '/#packages' },
+  // { label: 'PACKAGES', href: '/#packages' },
   { label: 'ABOUT', href: '/about', isRoute: true },
   { label: 'CONTACT', href: '/contact', isRoute: true },
 ];
@@ -150,7 +150,7 @@ export default function Navbar() {
         <Link to="/" className="flex-shrink-0 flex items-center -ml-2 md:-ml-4 relative z-10 transition-transform duration-300 hover:scale-[1.02]">
           <img
             alt="Detailing Demons Logo"
-            className="h-16 md:h-28 lg:h-32 w-auto object-contain"
+            className="h-12 md:h-16 lg:h-20 w-auto object-contain"
             src="/logo1.png"
           />
         </Link>

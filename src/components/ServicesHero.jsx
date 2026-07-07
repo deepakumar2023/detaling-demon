@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HERO_BG_IMAGE = "https://lh3.googleusercontent.com/aida-public/AB6AXuDHHkChK8gVTVvSP7FLAcvUThDktt6_ylrhgyiuHSfgM3qPFbPNq17Y9mnpjsISvjM6ZccX0B2jQilfHbLzZYnLe6yJKC9LzyISCf_ZusCyJe_3d_rlmRmNRgQ2nX_B-izYcbdexvZA4kN3pO592od4tm94FhFIJt9hLfUpH9k26iVFK1IT5TNIovOnopKmUhsgQJ2oEpB58NENZaJLrB3ZuA7iCQUzA5f7tOuxh83bEbvclhlMnQv93N_9dyvrs38gWfPlFcOAMQ";
+const HERO_BG_IMAGE = "/services/servicemainpageimg.png";
 
 export default function ServicesHero() {
   return (

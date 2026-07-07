@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-const AFTER_IMAGE = "https://lh3.googleusercontent.com/aida-public/AB6AXuB9i-jyxHyax7H1E67wwJvp0PepfuIGYPSuJ4Pg1aLHwrCjLNSVLbHfTazOPj2qDVSgakXyQY63BujfV-0oMGvW3V61VzGAjhypW5ZLtUXjKqEfipg4pKMwdqcYb9-2xYI4E-XIAaO1sYwSBNh6-hfFsJnpoRdk-P27SAozIhoJeQhg9s8xN-5DTME4UhtzVWj4nikdMN4yUgMqeRQqjGuOMYN88X6WQjx2yr4e3-cFnzO8Ry1Hr-70_05CqFRQficoPpof3kTn7Q";
-const BEFORE_IMAGE = "https://lh3.googleusercontent.com/aida-public/AB6AXuAhESHcTlWQuJIC6VIUc6uuoYAG4BPRdEc7csL_bV7UajskwOR2ysR7CjPR4-cy-Ud0uOQ_q3dt3lNBStByi_0swRrqha4_R_AKrP9AizGwJa1qIIh3DdYTysRo_hv99uMoHhOG5PegSJBD8pxVC_pRP9kh-QWN7J84oFFkrfLOM4gF4tgYT1r6EkvFnZVGjKxnlmvzu106WkP6iQ9nAFP5hQXsGpZAGC8uNMIcrE1t3d_yQD_V5xpGEzS9EX3raW92E7umHezCVg";
+const AFTER_IMAGE = "/services/afterimg.png";
+const BEFORE_IMAGE = "/services/beforeimg.png";
 
 export default function ComparisonSlider() {
   const containerRef = useRef(null);

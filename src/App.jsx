@@ -26,10 +26,15 @@ import CarDentingPainting from './pages/services/CarDentingPainting'
 import WindshieldProtection from './pages/services/WindshieldProtection'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import TermsPage from './pages/TermsPage'
+import PrivacyPage from './pages/PrivacyPage'
+
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Navbar/>
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -58,6 +63,8 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/portfolio" element={<PortfolioPage />} />
+        <Route path="/terms" element={<TermsPage />} />
+        <Route path="/privacy" element={<PrivacyPage />} />
       </Routes>
 
       <FloatingActions />

@@ -9,7 +9,7 @@ const PROJECTS = [
     category: 'ceramic',
     subtitle: 'Ceramic Pro Ultra',
     title: 'Maranello Glow',
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCTe-_VZgEGXSv54ztfuGgi2bPSKsH7fvFRL-p18p-AWbvAXyD6fORAnhZyXQlLAnq00Yzyh1UmsV7O3nNIpTs02516wTxLIToDGjhivO7HIyOPhYdEWnTJ3eg8u1eVJQ6zqRfGnq2F3WqDgVd9Oe9vLVgTY-1r_VKKQmRp5zA8ENCcrPO5IyrHyjFYMXySP5cfaJGviCMrEKlh51BG1rxnivhDH-T9gTVG6tiFDNoAYUCYkjspIvHQFww1QbvzefdkMTg65AzAaA",
+    image: "/portfolioimg1.png",
     alt: "Close-up shot of a deep metallic red Ferrari 812 Superfast showing perfect paint reflections.",
     className: "group relative aspect-[4/5] bg-[var(--color-surface-container-high)] overflow-hidden border border-[var(--color-surface-container-highest)] transition-all duration-500 hover:shadow-[0_0_30px_rgba(230,0,0,0.4)] hover:border-[var(--color-primary-container)]"
   },
@@ -18,7 +18,7 @@ const PROJECTS = [
     category: 'correction',
     subtitle: 'Stage 3 Correction',
     title: 'Silver Precision',
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAVAM3VBfBJXnYbWMI8FNoV0bpJLJyJOZFYIQ9uklVEM2L3BWfahN8v2GusqInrNrX4eAzzVMphKqt8XqXA3ByhzHIzeRZq71nij4HjC_8725tqESdGd1rJX1lywj8Lxcj6Jz817Qozb6ZUc_zRApy1HI4aEFTZrPPgOFl13sy0RQeJAaAzR7uLKOTnsHtgMnDMNRmee_sXIefxdFVfozqoDwxSA1w0rjVKA0ShAuF_hWwsiebm3_bTffRt4wnNpfC-vqCbDYGavg",
+    image: "/portfolioimg2.png",
     alt: "A sleek silver Porsche 911 GT3 RS undergoing professional paint correction.",
     className: "group relative aspect-[4/5] bg-[var(--color-surface-container-high)] overflow-hidden border border-[var(--color-surface-container-highest)] transition-all duration-500 hover:shadow-[0_0_30px_rgba(230,0,0,0.4)] hover:border-[var(--color-primary-container)]"
   },
@@ -27,7 +27,7 @@ const PROJECTS = [
     category: 'ppf',
     subtitle: 'Xpel Ultimate Plus',
     title: 'Invincible Shield',
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAAr3ygVdf5ObhRGshfLvLf7AwCITYdcnFlS0uykK7sRL_jHQqDvEKYInyV8Nl-L71QBaPgPm-dL4_2wFmB9yh2MFyPK5fGyoHIR1JAPa8H4wwOT1b7ctS_wO_7Ok68WvwC8hZ-HTnNu8Z1a27YM49hU9DjyN12PVVE8K5BZWM5-pvcC3wZ-N0NjyOVAgDVQkR8Pn0m4eqFDnCMiAU8w1NRgfyEFCSGhJpTNafdXccvercqon790J97Xorzl8SZneQ96e8ugcrDnw",
+    image: "/portfolioimg3.png",
     alt: "A dark blue McLaren 720S being fitted with clear Paint Protection Film (PPF).",
     className: "group relative aspect-[4/5] bg-[var(--color-surface-container-high)] overflow-hidden border border-[var(--color-surface-container-highest)] transition-all duration-500 hover:shadow-[0_0_30px_rgba(230,0,0,0.4)] hover:border-[var(--color-primary-container)]"
   },
@@ -36,7 +36,7 @@ const PROJECTS = [
     category: 'ceramic',
     subtitle: 'The Dark Knight Suite',
     title: 'Total Obsidian Transformation',
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCuzsCbiXZ2H0lCPgxovgoGpFvDmmE_MX1emybpF-cOoVU5AesdgYHLExt4zExMS11jNi00hyOWbV9HjouSRGvjLLOklve1sTckda91CsGrLW7DWWeXyTPsNqUTvXJr3YYo1VlL40iqul4BuzklY1CXhePwEcNC49jG-Xk8xZMWPTtTymXWAsApmQRcm3YBq6tKjPpLXNYiIZadbAVwc3luAMy16J5v-vidrWaWA1fVFM9mglUcyVlwyZ5kuc5tul8Wsj7FQMinHQ",
+    image: "/portfolioimg4.png",
     alt: "A wide-angle shot of a custom black Rolls Royce Cullinan parked in a dark warehouse.",
     className: "group relative lg:col-span-2 aspect-[16/9] bg-[var(--color-surface-container-high)] overflow-hidden border border-[var(--color-surface-container-highest)] transition-all duration-500 hover:shadow-[0_0_30px_rgba(230,0,0,0.4)] hover:border-[var(--color-primary-container)]",
     titleClass: "font-display-lg text-headline-lg uppercase italic text-[var(--color-on-surface)] leading-tight"
@@ -46,7 +46,7 @@ const PROJECTS = [
     category: 'interior',
     subtitle: 'Interior Restoration',
     title: 'Tactile Luxury',
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAIiC9Pg-INQSpEsgZ_T_D6tPw7LaJC3qMIC_YKXwtsQ9qgjL_6pCV_GOJnXowA77zw7P72PDVF7RmWZ3rQ6C_fl5RB0jtLRAxPLJckFpKr4Pd2gOZReBciFti1CsQYvcwFNX1JZT0JHMMNjIg2CoOE49uX9uE_iwJ8KA8lilse2IK6HDxDUy_xIhFgLK81UDN-L5gEUqYkIC8n-n3dr2rniymou14WkldfgyCeDYoopCbB834mFzgOqkyrv3Id9PrYNUqKALQe5w",
+    image: "/portfolioimg5.png",
     alt: "Macro photography of a luxury car interior.",
     className: "group relative aspect-[1/1] bg-[var(--color-surface-container-high)] overflow-hidden border border-[var(--color-surface-container-highest)] transition-all duration-500 hover:shadow-[0_0_30px_rgba(230,0,0,0.4)] hover:border-[var(--color-primary-container)]"
   },
@@ -55,7 +55,7 @@ const PROJECTS = [
     category: 'ppf',
     subtitle: 'Stealth PPF Wrap',
     title: 'Frozen Aggression',
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCOGjlHZYoxt34EIgAfvRiKreYlmJwJGY94Nn6AsgcuU1aHNeLvPrnxyvVIepEvsRYRCiWNYDprdVXRbsYrdlHRsOE9a5Y4HY7il--lgjeR49CzHfuSxhzh_i1stPoTE5T3nqzrhcLQ9GtuMoWvw9yDmyinp4rlDfYI95gklyOBBnE4cjE3913D0hBpWgITA5YEWAR6b_qSEX0MvD6KZeEIXH0yQqiC9Jj6t--zlByTfesCfyXCU5etau35ly9uLWo6nuqH-RB7lg",
+    image: "/portfolioimg6.png",
     alt: "A white Audi R8 V10 Plus featuring a full stealth satin PPF wrap.",
     className: "group relative aspect-[4/5] bg-[var(--color-surface-container-high)] overflow-hidden border border-[var(--color-surface-container-highest)] transition-all duration-500 hover:shadow-[0_0_30px_rgba(230,0,0,0.4)] hover:border-[var(--color-primary-container)]"
   },
@@ -64,7 +64,7 @@ const PROJECTS = [
     category: 'correction',
     subtitle: 'Exotic Correction',
     title: 'Carbon Clarity',
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBXU45EAshxgZ02x-xsEHenarjCjv5rNORUTO0LY7HkppyAUL8wvN6qpezwHfiR3JQ3kUMq9uC_CwTXdQu3Z_NnBlJVszDGS_E2Be4Uv4Ef2qxTGM9GGusgpc-YJveSlBIkN39DAJ_K7US_MDWVAusUelOfI11oGc59f_-TR9UT2h4MPtTBleE6L-8VVrzWxu0kq6e21m8CsoO1K_5kISuuxX7dqvZnUH_1eoUnYc09bHrcM1bFxOTkyXd2zdoG4msB55Ey6ElUWA",
+    image: "/portfolioimg7.png",
     alt: "Detail shot of a carbon fiber wing on a Koenigsegg.",
     className: "group relative aspect-[4/5] bg-[var(--color-surface-container-high)] overflow-hidden border border-[var(--color-surface-container-highest)] transition-all duration-500 hover:shadow-[0_0_30px_rgba(230,0,0,0.4)] hover:border-[var(--color-primary-container)]"
   },
@@ -73,7 +73,7 @@ const PROJECTS = [
     category: 'ceramic',
     subtitle: 'Hydrophobic Armor',
     title: 'Water Sovereign',
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAaqZvKtkCXvT8bLn4wefNCovZH4gMZtErivGTbjJ49soevn2lUJpRvYXjEwAC514g-FhK2EQcnwsaohiwA5roVvJFGY_4oGEh5DKzXAXqsavL27GcsaYDDxT7PugCdLV2abT2Kyv_7g27suqD5kQxz6rKzLpqIkE0rtbJhpfAv1F5zazY5AsXcMcqxKqj3SW8iNXARIWWLx2O0vY2MQI94-cCbGJg_dkmaYLozLQSRCrRpgp8xtztc0PG_M5XMXUFnStZcmvqI4Q",
+    image: "/portfolioimg8.png",
     alt: "A dark green Aston Martin DBS Superleggera in the rain.",
     className: "group relative aspect-[4/5] bg-[var(--color-surface-container-high)] overflow-hidden border border-[var(--color-surface-container-highest)] transition-all duration-500 hover:shadow-[0_0_30px_rgba(230,0,0,0.4)] hover:border-[var(--color-primary-container)]"
   }
@@ -118,7 +118,7 @@ export default function PortfolioPage() {
           <div 
             className="w-full h-full bg-cover bg-center scale-105 animate-[pulse_10s_ease-in-out_infinite]" 
             alt="A cinematic, low-key lighting shot of a matte black Lamborghini Revuelto in a dark, high-end showroom." 
-            style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBauQleG6B1lPBCIVFFJqNTDnYv3XVxfQL8-5WqYHEgiSGRN7m561dTzQd8J9n4kTSe3ux1Ad5OZ-ZGhfcQ0NGr_b1qgkNmJlTbIXtXKh9q87LOU3WqmwGT51tut10Lvta2z9gy44MWaLhhsOj7O_6BC-6ySUKBp42DhuLQKWnBAWdAm-_siwhqdOkzy6uivZduPKJM84sWNmFRJR4tTC8S55_rWkJ_0ytp4rIH0-LV2tsKU2_GYY8PQLvWBXDbsMi69Hr2Uuy2UA')" }}
+            style={{ backgroundImage: "url('/portfolioimg.png')" }}
           />
           <div className="absolute inset-0 hero-gradient"></div>
         </div>
